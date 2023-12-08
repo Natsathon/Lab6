@@ -2,19 +2,19 @@
 using namespace std;
 
 int main(){
-    int n = 1;
-    int e = 0;
-    int o = 0;
-    while ( n != 0){
+    int x = 1;
+    int y = 0;
+    int z = 0;
+    while ( x != 0){
         cout << "Enter an integer: ";
-        cin >> n;
-        if ( n%2 == 0 and n != 0 ){
-            e = e+1;
-        }else if( n%2 != 0){
-            o = o+1;
+        cin >> x;
+        if ( x%2 == 0 and x != 0 ){
+            y = y+1;
+        }else if( x%2 != 0){
+            z = z+1;
         }
     }
-    cout << "#Even numbers = "<< e << endl;
-    cout << "#Odd numbers = "<< o << endl;
+    cout << "#Even numbers = "<< y << endl;
+    cout << "#Odd numbers = "<< z << endl;
     return 0;
 }
